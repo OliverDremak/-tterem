@@ -1,14 +1,3 @@
-//Cim mezo kikapcsol
-const checkbox = document.getElementById('ettermiAtvet');
-const addressInput = document.getElementById('AddressInput');
-
-checkbox.addEventListener('change', function() {
-    if (checkbox.checked) {
-        addressInput.disabled = true;
-    } else {
-        addressInput.disabled = false;
-    }
-});
 
 function sendOrder() {
     alert("Sikeresen elkukldte a rendelést!");
@@ -20,26 +9,35 @@ function sendTable() {
 //Backend
 async function OrderCard(){
     let items = await getData("foods");
-    let row = "";
+    let row = document.createElement("div");
+    row.className = "row";
     console.log(items)
     items.forEach(element => {
-
-        row += `
-        <div class="col-12 col-md-4">
+        let div = document.createElement("div");
+        div.className = "col-12 col-md-4";
+        div.innerHTML +=`       
             <div class="card w-100">
                 <img src="${element.pic}" class="card-img-top w-100" alt="Not Found">
                 <div class="card-body">
                     <h2 class="card-title">${element.foodName}</h2>
                     <p class="card-text"><b>Ár:</b> ${element.prize}</p>
-                    <p class="card-text"><b>Leírás:</b> ${element.description}</p>                   
+                    <p class="card-text"><b>Leírás:</b> ${element.description}</p>                
                 </div>
             </div>
-        </div>        
+    
     `;
-     
+    let btn = document.createElement("button");
+    btn.textContent = "Kosárba"
+    btn.className = "kosarBtn";
+    btn.addEventListener("click",console.log("ok"));
+    div.append(btn);
+    row.append(div);
+
     
     });
-document.querySelector('#orderCard').innerHTML += row;   
+
+
+document.querySelector('#orderCard').append(row);   
 }
 
 async function getData(resource)
