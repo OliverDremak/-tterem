@@ -7,7 +7,7 @@
   height: 800px;
 }
 .first-block {
-  background-image: url("intrerior.jpg");
+  background-image: url("./Pics/intrerior.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
