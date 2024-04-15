@@ -7,7 +7,7 @@
         "number":7
     }
 ],
-"order":[
+    "order":[
     {
         "name":"test",
         "email": "a@a.hu", 
@@ -15,7 +15,75 @@
         "total_prize":2000,
         "adress":"Jedlik eu"
     }
-]
+],
+    "foods":[
+        {
+            "foodName":"ad",
+            "pic":"https://www.bing.com/ck/a?!&&p=1bfba545799eaf20JmltdHM9MTcxMzEzOTIwMCZpZ3VpZD0yOTEwMzBlNS0xNGI0LTZjMGEtM2YyMC0yMjU1MTU2ZDZkNjUmaW5zaWQ9NTcxMg&ptn=3&ver=2&hsh=3&fclid=291030e5-14b4-6c0a-3f20-2255156d6d65&u=a1L2ltYWdlcy9zZWFyY2g_cT1mb29kJTIwcGljdHVyZXMmRk9STT1JUUZSQkEmaWQ9Q0U5RDRCNjQ1QTY2QTE4MEQ2ODVCMkFGODZFQkFCOTFCMDIwMjYwMA&ntb=1",
+            "prize":2000,
+            "description":"jo kaja"
+        },
+        {
+            "foodName": "Shawarma Platter",
+            "pic": "https://www.bing.com/ck/a?!&&p=1bfba545799eaf20JmltdHM9MTcxMzEzOTIwMCZpZ3VpZD0yOTEwMzBlNS0xNGI0LTZjMGEtM2YyMC0yMjU1MTU2ZDZkNjUmaW5zaWQ9NTcxMg&ptn=3&ver=2&hsh=3&fclid=291030e5-14b4-6c0a-3f20-2255156d6d65&u=a1L2ltYWdlcy9zZWFyY2g_cT1mb29kJTIwcGljdHVyZXMmRk9STT1JUUZSQkEmaWQ9Q0U5RDRCNjQ1QTY2QTE4MEQ2ODVCMkFGODZFQkFCOTFCMDIwMjYwMA&ntb=1",
+            "prize": 1200,
+            "description": "A classic Middle Eastern dish featuring tender, marinated meat (chicken, beef, or lamb) roasted on a vertical spit. Served with fluffy rice, fresh salad, and tangy garlic sauce."
+        },
+        {
+            "foodName": "Margherita Pizza",
+            "pic": "https://th.bing.com/th?id=OIP.ihcILXxpcD-eg1h6d1YXCQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+            "prize": 800,
+            "description": "A traditional Italian pizza topped with ripe tomatoes, fresh mozzarella cheese, fragrant basil leaves, and a drizzle of olive oil. Simple yet satisfying!"
+        },
+        {
+            "foodName": "Pad Thai Noodles",
+            "pic": "https://example.com/pad_thai.jpg",
+            "prize": 1000,
+            "description": "A popular Thai stir-fried noodle dish featuring rice noodles, tofu, shrimp, bean sprouts, and peanuts, flavored with tamarind sauce, fish sauce, and lime juice."
+        },
+        {
+            "foodName": "Chicken Tikka Masala",
+            "pic": "https://example.com/tikka_masala.jpg",
+            "prize": 1500,
+            "description": "A beloved Indian curry dish made with tender pieces of grilled chicken simmered in a creamy tomato sauce infused with aromatic spices. Best enjoyed with fluffy basmati rice and naan bread."
+        },
+        {
+            "foodName": "Caesar Salad",
+            "pic": "https://example.com/caesar_salad.jpg",
+            "prize": 900,
+            "description": "A classic salad made with crisp romaine lettuce, garlic croutons, shaved Parmesan cheese, and tangy Caesar dressing. A refreshing and light option for a healthy meal."
+        },
+        {
+            "foodName": "Sushi Combo",
+            "pic": "https://example.com/sushi_combo.jpg",
+            "prize": 1800,
+            "description": "A delightful assortment of fresh sushi rolls and nigiri, featuring a variety of fish, seafood, and vegetables, expertly prepared by skilled sushi chefs. Served with soy sauce, wasabi, and pickled ginger."
+        },
+        {
+            "foodName": "Beef Burger",
+            "pic": "https://example.com/beef_burger.jpg",
+            "prize": 1300,
+            "description": "A juicy grilled beef patty topped with melted cheese, crispy bacon, fresh lettuce, ripe tomatoes, and tangy pickles, sandwiched between toasted sesame seed buns. A classic favorite!"
+        },
+        {
+            "foodName": "Pasta Carbonara",
+            "pic": "https://example.com/pasta_carbonara.jpg",
+            "prize": 1100,
+            "description": "A comforting Italian pasta dish made with spaghetti, creamy egg sauce, crispy pancetta or bacon, and grated Parmesan cheese. Rich, indulgent, and utterly delicious!"
+        },
+        {
+            "foodName": "Chicken Caesar Wrap",
+            "pic": "https://example.com/chicken_caesar_wrap.jpg",
+            "prize": 1000,
+            "description": "A satisfying wrap filled with grilled chicken strips, romaine lettuce, Parmesan cheese, and Caesar dressing, all wrapped in a soft tortilla. Perfect for a quick and tasty lunch on the go!"
+        },
+        {
+            "foodName": "Vegetable Stir-Fry",
+            "pic": "https://example.com/vegetable_stirfry.jpg",
+            "prize": 850,
+            "description": "A colorful medley of fresh vegetables, such as bell peppers, broccoli, carrots, and mushrooms, stir-fried to perfection in a savory sauce made with garlic, ginger, and soy sauce. Healthy and flavorful!"
+        }
+    ]
 
     
 }
