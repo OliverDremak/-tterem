@@ -11,7 +11,10 @@ checkbox.addEventListener('change', function() {
 });
 
 function sendOrder() {
-    alert("Sikeresen elkukldte a rendelést");
+    alert("Sikeresen elkukldte a rendelést!");
   }
 
+function sendTable() {
+    alert("Sikeresen foglalt asztalt!");
+  }
 //Backend
